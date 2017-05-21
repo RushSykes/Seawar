@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F90E236D1EADCF6D00479AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E236C1EADCF6D00479AFF /* AppDelegate.swift */; };
+		F90E23721EADCF6D00479AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90E23701EADCF6D00479AFF /* Main.storyboard */; };
+		F90E23741EADCF6D00479AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90E23731EADCF6D00479AFF /* Assets.xcassets */; };
+		F90E23771EADCF6D00479AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90E23751EADCF6D00479AFF /* LaunchScreen.storyboard */; };
+		F90E23841EADD3C400479AFF /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E23831EADD3C400479AFF /* GameBoard.swift */; };
+		F90E23861EADD3EB00479AFF /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E23851EADD3EB00479AFF /* Grid.swift */; };
+		F90E23881EADD41A00479AFF /* GridColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E23871EADD41A00479AFF /* GridColumn.swift */; };
+		F90E238A1EADD43500479AFF /* GridStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E23891EADD43500479AFF /* GridStatus.swift */; };
+		F90E238C1EADD54500479AFF /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E238B1EADD54500479AFF /* Singleton.swift */; };
+		F90E238E1EADDBAD00479AFF /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E238D1EADDBAD00479AFF /* Ship.swift */; };
+		F90E23941EADE04A00479AFF /* GridButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E23931EADE04A00479AFF /* GridButtonDelegate.swift */; };
+		F90E23961EADE08700479AFF /* GridButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E23951EADE08700479AFF /* GridButton.swift */; };
+		F90E23981EADE99C00479AFF /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E23971EADE99C00479AFF /* GridView.swift */; };
+		F90E239A1EADF60C00479AFF /* InitBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E23991EADF60C00479AFF /* InitBoardView.swift */; };
+		F90E239C1EADF9C500479AFF /* OwnerBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E239B1EADF9C500479AFF /* OwnerBoardView.swift */; };
+		F90E239E1EADFB0D00479AFF /* MarkBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E239D1EADFB0D00479AFF /* MarkBoardView.swift */; };
+		F90E23A01EADFDA400479AFF /* InitBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E239F1EADFDA400479AFF /* InitBoardViewController.swift */; };
+		F9D5C7EA1ED1B7A100CF65A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C7E91ED1B7A100CF65A2 /* MainViewController.swift */; };
+		F9D5C7EC1ED1B7E800CF65A2 /* MarkBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C7EB1ED1B7E800CF65A2 /* MarkBoardViewController.swift */; };
+		F9D5C7EE1ED1BBAD00CF65A2 /* OwnerBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C7ED1ED1BBAD00CF65A2 /* OwnerBoardViewController.swift */; };
+		F9D5C7F01ED1BD9900CF65A2 /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D5C7EF1ED1BD9900CF65A2 /* RuleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F90E23691EADCF6D00479AFF /* SeaWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90E236C1EADCF6D00479AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F90E23711EADCF6D00479AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F90E23731EADCF6D00479AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F90E23761EADCF6D00479AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F90E23781EADCF6D00479AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90E23831EADD3C400479AFF /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		F90E23851EADD3EB00479AFF /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		F90E23871EADD41A00479AFF /* GridColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridColumn.swift; sourceTree = "<group>"; };
+		F90E23891EADD43500479AFF /* GridStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridStatus.swift; sourceTree = "<group>"; };
+		F90E238B1EADD54500479AFF /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		F90E238D1EADDBAD00479AFF /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		F90E23931EADE04A00479AFF /* GridButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridButtonDelegate.swift; sourceTree = "<group>"; };
+		F90E23951EADE08700479AFF /* GridButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridButton.swift; sourceTree = "<group>"; };
+		F90E23971EADE99C00479AFF /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		F90E23991EADF60C00479AFF /* InitBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitBoardView.swift; sourceTree = "<group>"; };
+		F90E239B1EADF9C500479AFF /* OwnerBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnerBoardView.swift; sourceTree = "<group>"; };
+		F90E239D1EADFB0D00479AFF /* MarkBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkBoardView.swift; sourceTree = "<group>"; };
+		F90E239F1EADFDA400479AFF /* InitBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitBoardViewController.swift; sourceTree = "<group>"; };
+		F9D5C7E91ED1B7A100CF65A2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F9D5C7EB1ED1B7E800CF65A2 /* MarkBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkBoardViewController.swift; sourceTree = "<group>"; };
+		F9D5C7ED1ED1BBAD00CF65A2 /* OwnerBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnerBoardViewController.swift; sourceTree = "<group>"; };
+		F9D5C7EF1ED1BD9900CF65A2 /* RuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F90E23661EADCF6D00479AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F90E23601EADCF6D00479AFF = {
+			isa = PBXGroup;
+			children = (
+				F90E236B1EADCF6D00479AFF /* SeaWar */,
+				F90E236A1EADCF6D00479AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F90E236A1EADCF6D00479AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F90E23691EADCF6D00479AFF /* SeaWar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F90E236B1EADCF6D00479AFF /* SeaWar */ = {
+			isa = PBXGroup;
+			children = (
+				F90E237E1EADD2F400479AFF /* Model */,
+				F90E237F1EADD2F900479AFF /* View */,
+				F90E23801EADD2FD00479AFF /* Controller */,
+				F90E236C1EADCF6D00479AFF /* AppDelegate.swift */,
+				F90E23701EADCF6D00479AFF /* Main.storyboard */,
+				F90E23731EADCF6D00479AFF /* Assets.xcassets */,
+				F90E23751EADCF6D00479AFF /* LaunchScreen.storyboard */,
+				F90E23781EADCF6D00479AFF /* Info.plist */,
+			);
+			path = SeaWar;
+			sourceTree = "<group>";
+		};
+		F90E237E1EADD2F400479AFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F90E23831EADD3C400479AFF /* GameBoard.swift */,
+				F90E23851EADD3EB00479AFF /* Grid.swift */,
+				F90E23871EADD41A00479AFF /* GridColumn.swift */,
+				F90E23891EADD43500479AFF /* GridStatus.swift */,
+				F90E238B1EADD54500479AFF /* Singleton.swift */,
+				F90E238D1EADDBAD00479AFF /* Ship.swift */,
+				F90E23931EADE04A00479AFF /* GridButtonDelegate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F90E237F1EADD2F900479AFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F90E23951EADE08700479AFF /* GridButton.swift */,
+				F90E23971EADE99C00479AFF /* GridView.swift */,
+				F90E23991EADF60C00479AFF /* InitBoardView.swift */,
+				F90E239B1EADF9C500479AFF /* OwnerBoardView.swift */,
+				F90E239D1EADFB0D00479AFF /* MarkBoardView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F90E23801EADD2FD00479AFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F90E239F1EADFDA400479AFF /* InitBoardViewController.swift */,
+				F9D5C7E91ED1B7A100CF65A2 /* MainViewController.swift */,
+				F9D5C7EB1ED1B7E800CF65A2 /* MarkBoardViewController.swift */,
+				F9D5C7ED1ED1BBAD00CF65A2 /* OwnerBoardViewController.swift */,
+				F9D5C7EF1ED1BD9900CF65A2 /* RuleViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F90E23681EADCF6D00479AFF /* SeaWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90E237B1EADCF6D00479AFF /* Build configuration list for PBXNativeTarget "SeaWar" */;
+			buildPhases = (
+				F90E23651EADCF6D00479AFF /* Sources */,
+				F90E23661EADCF6D00479AFF /* Frameworks */,
+				F90E23671EADCF6D00479AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeaWar;
+			productName = SeaWar;
+			productReference = F90E23691EADCF6D00479AFF /* SeaWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F90E23611EADCF6D00479AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RS;
+				TargetAttributes = {
+					F90E23681EADCF6D00479AFF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VC6PXL4Z5S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F90E23641EADCF6D00479AFF /* Build configuration list for PBXProject "SeaWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F90E23601EADCF6D00479AFF;
+			productRefGroup = F90E236A1EADCF6D00479AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F90E23681EADCF6D00479AFF /* SeaWar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F90E23671EADCF6D00479AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90E23771EADCF6D00479AFF /* LaunchScreen.storyboard in Resources */,
+				F90E23741EADCF6D00479AFF /* Assets.xcassets in Resources */,
+				F90E23721EADCF6D00479AFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F90E23651EADCF6D00479AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90E23961EADE08700479AFF /* GridButton.swift in Sources */,
+				F90E23941EADE04A00479AFF /* GridButtonDelegate.swift in Sources */,
+				F9D5C7F01ED1BD9900CF65A2 /* RuleViewController.swift in Sources */,
+				F90E23841EADD3C400479AFF /* GameBoard.swift in Sources */,
+				F90E238C1EADD54500479AFF /* Singleton.swift in Sources */,
+				F90E236D1EADCF6D00479AFF /* AppDelegate.swift in Sources */,
+				F90E239C1EADF9C500479AFF /* OwnerBoardView.swift in Sources */,
+				F90E23861EADD3EB00479AFF /* Grid.swift in Sources */,
+				F90E23A01EADFDA400479AFF /* InitBoardViewController.swift in Sources */,
+				F9D5C7EE1ED1BBAD00CF65A2 /* OwnerBoardViewController.swift in Sources */,
+				F90E23881EADD41A00479AFF /* GridColumn.swift in Sources */,
+				F9D5C7EA1ED1B7A100CF65A2 /* MainViewController.swift in Sources */,
+				F9D5C7EC1ED1B7E800CF65A2 /* MarkBoardViewController.swift in Sources */,
+				F90E238E1EADDBAD00479AFF /* Ship.swift in Sources */,
+				F90E239A1EADF60C00479AFF /* InitBoardView.swift in Sources */,
+				F90E239E1EADFB0D00479AFF /* MarkBoardView.swift in Sources */,
+				F90E23981EADE99C00479AFF /* GridView.swift in Sources */,
+				F90E238A1EADD43500479AFF /* GridStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F90E23701EADCF6D00479AFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90E23711EADCF6D00479AFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F90E23751EADCF6D00479AFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90E23761EADCF6D00479AFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F90E23791EADCF6D00479AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F90E237A1EADCF6D00479AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F90E237C1EADCF6D00479AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VC6PXL4Z5S;
+				INFOPLIST_FILE = SeaWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rushsykes.SeaWar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F90E237D1EADCF6D00479AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VC6PXL4Z5S;
+				INFOPLIST_FILE = SeaWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rushsykes.SeaWar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F90E23641EADCF6D00479AFF /* Build configuration list for PBXProject "SeaWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90E23791EADCF6D00479AFF /* Debug */,
+				F90E237A1EADCF6D00479AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90E237B1EADCF6D00479AFF /* Build configuration list for PBXNativeTarget "SeaWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90E237C1EADCF6D00479AFF /* Debug */,
+				F90E237D1EADCF6D00479AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F90E23611EADCF6D00479AFF /* Project object */;
+}
